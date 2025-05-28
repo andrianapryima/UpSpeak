@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: white;
+  font-family: sans-serif;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  gap: 26px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.test-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.phones {
+  text-align: right;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.phone::before {
+  content: '📞 ';
+  margin-right: 4px;
+}
